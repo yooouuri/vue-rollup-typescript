@@ -1,0 +1,23 @@
+{
+  "name": "vue-components",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf esm && rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "rollup": "^2.23.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-vue": "5.1.9",
+    "typescript": "^3.9.7",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  }
+}
